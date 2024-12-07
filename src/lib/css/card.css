@@ -1,0 +1,7 @@
+.card {
+    width: 100%;
+    border: 1px solid red;
+}
+.card:hover {
+    box-shadow: var(--box-shadow);
+}

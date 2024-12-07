@@ -1,0 +1,202 @@
+{
+    "pr": [],
+    "vp": [],
+    "sn": [
+        {
+            "id": "1",
+            "fn": "Benjamin De Castro Jr.",
+            "short_fn": "Benhur",
+            "ln": "Abalos",
+            "dob": "19620719",
+            "term": 1,
+            "tags": [
+                "PF",
+                "F_M",
+                "F_R",
+                "F_CM"
+            ],
+            "img": "abalos.jpg",
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [{
+                "value": "Secretary - Department of Interior and Local Government (2022-2024)",
+                "sub": [
+                    "Implementation of the \"Buhay Ingatan, Droga'y Ayawan (BIDA)\" program"
+                ]
+            }, {
+                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "sub": [
+                    "Best Mayor (2015)"
+                ]
+            }, {
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
+                "sub": [
+                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
+                    "Co-authored 54 House bills"
+                ]
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
+                "sub": [
+                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
+                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
+                    "Outstanding Mayor of the Philippines (2000)"
+                ]
+            }, {
+                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+            }],
+            "adv": [],
+            "pf": [{
+                "name": "Benjamin Abalos Sr.",
+                "rel": "Father",
+                "pos": "Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Carmelita Abalos",
+                "rel": "Wife",
+                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Charisse Marie Abalos",
+                "rel": "Daughter",
+                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+            }, {
+                "name": "Benjamin Abalos III",
+                "rel": "Son",
+                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Laws",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
+                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+            ]
+        },
+        {
+            "id": "2",
+            "fn": "Ronaldo Mangampo",
+            "ln": "Adonis",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "3",
+            "fn": "Wilson Caritero",
+            "ln": "Amad",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "4",
+            "fn": "Jocelyn Santos",
+            "ln": "Andamo",
+            "dob": "",
+            "term": 1,
+            "tags": [],
+            "img": "adonis.jpg",
+            "party": "Makabayang Koalisyon ng Mamamayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "5",
+            "fn": "Paolo Benigno “Bam” IV Aguirre",
+            "ln": "Aquino",
+            "dob": "19770507",
+            "term": 2,
+            "tags": [
+                "PF",
+                "F_S"
+            ],
+            "img": "abalos.jpg",
+            "party": "Katipunan ng Nagkakaisang Pilipino",
+            "exp": [{
+                "value": "Senator (2013-2019)",
+                "sub": [
+                    "Deputy Senate Minority Leader (2017-2019)",
+                    {
+                        "v": "Passed more than 40 laws, including the following:",
+                        "l": [
+                            "<a href=\"https://www.officialgazette.gov.ph/2017/08/03/republic-act-no-10931/\" target=\"_blank\">RA 10931: Universal Access to Quality Tertiary Education Act</a>"
+                        ]
+                    }
+                ]
+            }, {
+                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "sub": [
+                    "Best Mayor (2015)"
+                ]
+            }, {
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)",
+                "sub": [
+                    "Principal author:<ul><li><a href=\"https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/\" target=\"_blank\">Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing</a></li></ul>",
+                    "Co-authored 54 House bills"
+                ]
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
+                "sub": [
+                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
+                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
+                    "Outstanding Mayor of the Philippines (2000)"
+                ]
+            }, {
+                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+            }],
+            "adv": [],
+            "pf": [{
+                "name": "Benjamin Abalos Sr.",
+                "rel": "Father",
+                "pos": "Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Carmelita Abalos",
+                "rel": "Wife",
+                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Charisse Marie Abalos",
+                "rel": "Daughter",
+                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+            }, {
+                "name": "Benjamin Abalos III",
+                "rel": "Son",
+                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Laws",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/\" target=\"_blank\">Abalos explains viral photo with Alice Guo</a>",
+                "<a href=\"https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded\" target=\"_blank\">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>",
+                "<a href=\"https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455\" target=\"_blank\">Abalos: Govt in big fight vs drug rings</a>"
+            ]
+        }
+    ],
+    "re": []
+}

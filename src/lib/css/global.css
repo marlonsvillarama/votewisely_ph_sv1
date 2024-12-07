@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color-default);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-default);
+}
+
+.bor-0 {
+    border: none;
+}
+.bor-1 {
+    border-width: 1px;
+    border-style: solid;
+}
+.bor-green {
+    border-color: green;
+}
+.bor-red {
+    border-color: red;
+}
+.bor-rad-1 {
+    border-radius: 0.25rem;
+}
+.bor-rad-2 {
+    border-radius: 0.5rem;
+}
+.bor-rad-3 {
+    border-radius: 0.75rem;
+}
+.bor-rad-4 {
+    border-radius: 1rem;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+    line-height: 1.5rem;
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+    line-height: 1.75rem;
+}

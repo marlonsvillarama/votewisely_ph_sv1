@@ -1,0 +1,12 @@
+/* #advocacy {
+    border: 1px solid red;
+} */
+#advocacy .content {
+    text-align: center;
+}
+#advocacy .content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 4rem;
+}

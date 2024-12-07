@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>VoteWisely.PH - About</title>
+	<title>VoteWisely.PH - Political Dynasties</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>Political Dynasties</h1>
 
 	<p>
 		This is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> app. You can make your own by typing

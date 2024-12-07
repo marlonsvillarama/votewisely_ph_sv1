@@ -1,10 +1,10 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-@import '@fontsource/fira-mono';
+@import './lib/css/root.css';
+@import './lib/css/fonts.css';
+@import './lib/css/global.css';
+@import './lib/css/layout.css';
 
-:root {
-	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+/* :root {
+	* --font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
@@ -16,7 +16,39 @@
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
-	color: var(--color-text);
+	color: var(--color-text); *
+
+    --blue-900: #13183F;
+    --blue-600: #666CA3;
+    --blue-flag: #0032A0;
+    --blue-tone-1: #0571D0;
+    --blue-tone-2: #1171C5;
+    --blue-tone-3: #1C70B9;
+    --blue-tint-1: #3A6F9E;
+    --blue-tint-2: #5B8AB3;
+    --blue-tint-3: #82A8C9;
+
+    --grey: #83869A;
+    --grey-242: #F2F2F2;
+    --grey-250: #FAFAFA;
+    --grey-42: #424242;
+    --grey-33: #333333;
+    --grey-ccc: #CCCCCC;
+
+    --red-flag: #BF0D3E;
+    --red-tint-1: #BF012E;
+    --red-tint-2: #C61740;
+    --red-tint-3: #CD2F54;
+    --red-tint-4: #D44868;
+    --red-tint-5: #DB627E;
+    --red-tint-6: #E27E96;
+    
+    --white: #FFFFFF;
+
+    --yellow-flag: #FED141;
+
+    --font-sans: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    --font-serif: 'Lora', 'Times New Roman', serif;
 }
 
 body {
@@ -108,3 +140,4 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+ */
