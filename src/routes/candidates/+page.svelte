@@ -1,3 +1,12 @@
+<script lang="ts">
+	import Card from "$lib/components/Card.svelte";
+	import { page } from "$app/stores";
+
+	export let candidateType = $page.params.candidateType;
+	export let data;
+	// const sn = data.sn;
+</script>
+
 <svelte:head>
 	<title>VoteWisely.PH - List of Candidates</title>
 	<meta name="description" content="List of Candidates" />
@@ -12,16 +21,20 @@
 
 <div class="candidates content wrapper">
 	<nav class="row-menu">
-		<a href="./">President</a>
-		<a href="./">Vice President</a>
-		<a href="./">Senate</a>
+		<a href="./pr/">President</a>
+		<a href="./vp/">Vice President</a>
+		<a href="./sn/">Senate</a>
 		<a href="./">Congress</a>
 	</nav>
 
-	<div class="grid-row-3">
+	{#each data[candidateType] as senator}
+		<Card slug={senator.slug} fn={senator.short_fn} ln={senator.ln} tags={senator.tags} />
+	{/each}
+
+	<!-- <div class="grid">
 		<div id="abalos" class="card">
 			<div class="img">
-				<a href="#"><img src="../../lib/images/profiles/abalos.jpg" alt="Abalos" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -36,7 +49,7 @@
 		</div>
 		<div id="adonis" class="card">
 			<div class="img">
-				<a href="#"><img src="../../lib/images/profiles/adonis.jpg" alt="Adonis" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -50,7 +63,7 @@
 		</div>
 		<div id="amad" class="card">
 			<div class="img">
-				<a href="#"><img src="../../lib/images/profiles/amad.jpg" alt="Amad" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -63,11 +76,9 @@
 				</div>
 			</a>
 		</div>
-	</div>
-	<div class="grid-row-3">
 		<div id="andamo" class="card">
 			<div class="img">
-				<a href="#"><img src="../../lib/images/profiles/andamo.jpg" alt="Andamo" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -82,7 +93,7 @@
 		</div>
 		<div id="aquino" class="card">
 			<div class="img">
-				<a href="#"><img src="/src/lib/images/profiles/aquino.jpg" alt="Aquino" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -97,7 +108,7 @@
 		</div>
 		<div id="arambulo" class="card">
 			<div class="img">
-				<a href="#"><img src="/src/lib/images/profiles/arambulo.jpg" alt="Arambulo" /></a>
+				<a href="#"><img src="/images/abalos.jpg" alt="Andamo" /></a>
 			</div>
 			<a href="#">
 				<div class="name">
@@ -110,8 +121,8 @@
 				</div>
 			</a>
 		</div>
-	</div>
-	<div class="grid-row-3">
+	</div> -->
+	<!-- <div class="grid-row-3">
 		<div id="arellano" class="card">
 			<div class="img">
 				<a href="#"><img src="/src/lib/images/profiles/arellano.jpg" alt="Arellano" /></a>
@@ -157,8 +168,8 @@
 				</div>
 			</a>
 		</div>
-	</div>
-	<div class="grid-row-3">
+	</div> -->
+	<!-- <div class="grid-row-3">
 		<div id="bondoc" class="card">
 			<div class="img">
 				<a href="#"><img src="/src/lib/images/profiles/bondoc.jpg" alt="Bondoc" /></a>
@@ -203,8 +214,8 @@
 				</div>
 			</a>
 		</div>
-	</div>
-	<div class="grid-row-3">
+	</div> -->
+	<!-- <div class="grid-row-3">
 		<div id="cabonegro" class="card">
 			<div class="img">
 				<a href="#"><img src="/src/lib/images/profiles/cabonegro.jpg" alt="Cabonegro" /></a>
@@ -238,8 +249,8 @@
 				</div>
 			</a>
 		</div>
-	</div>
-	<div class="grid-row-3">
+	</div> -->
+	<!-- <div class="grid-row-3">
 		<div id="castro" class="card">
 			<div class="img">
 				<a href="#"><img src="/src/lib/images/profiles/castro.jpg" alt="Castro" /></a>
@@ -273,12 +284,64 @@
 				</div>
 			</a>
 		</div>
-	</div>
+	</div> -->
 
 </div>
 
 <style>
-.a {
-	background: url('../../lib/images/profiles/abalos.jpg')
-}
+	.candidates.hero {
+		background: url("/images/banners/candidates.jpg") 50% 50%;
+		opacity: 0.8;
+	}
+	.candidates.hero .overlay {
+		/* position: absolute; */
+		/* top: 0; */
+		/* left: 0; */
+		/* height: 100%; */
+		/* width: 100%; */
+		/* background-color: rgba(0, 50, 160, 0.9); */
+		/* color: var(--color-default); */
+		/* opacity: 0.4; */
+	}
+
+	.candidates.content {
+		display: flex;
+		flex-direction: column;
+		color: var(--color-default);
+		gap: 2rem;
+	}
+	.row-menu {
+		/* border: 1px solid red; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+	}
+	.row-menu a {
+		padding: 0.5rem 1.25rem;
+		/* background-color: antiquewhite; */
+		font-family: var(--font-serif);
+		font-size: 0.875rem;
+		font-weight: 500;
+	}
+	.row-menu a:hover {
+		background-color: #E6E6E6;
+	}
+	.grid {
+		display: grid;
+		gap: 1.5rem;
+		margin: 0 auto;
+		/* grid-template-columns: repeat(3, 1fr); */
+		width: 100%;
+		border: 1px solid green;
+	}
+	@media (min-width: 40rem) {
+		.grid { grid-template-columns: repeat(2, 1fr); }
+	}
+	@media (min-width: 60rem) {
+		.grid { grid-template-columns: repeat(3, 1fr); }
+	}
+	.card {
+		border: 1px solid red;
+	}
 </style>

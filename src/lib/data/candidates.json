@@ -4,16 +4,17 @@
     "sn": [
         {
             "id": "1",
+            "slug": "abalos",
             "fn": "Benjamin De Castro Jr.",
             "short_fn": "Benhur",
             "ln": "Abalos",
             "dob": "19620719",
             "term": 1,
             "tags": [
-                "PF",
-                "F_M",
-                "F_R",
-                "F_CM"
+                { "text": "PF", "alert": true },
+                { "text": "F_M" },
+                { "text": "F_R" },
+                { "text": "F_CM" }
             ],
             "img": "abalos.jpg",
             "party": "Partido Federal ng Pilipinas",
@@ -76,7 +77,9 @@
         },
         {
             "id": "2",
+            "slug": "adonis",
             "fn": "Ronaldo Mangampo",
+            "short_fn": "Ronaldo",
             "ln": "Adonis",
             "dob": "",
             "term": 1,
@@ -92,7 +95,9 @@
         },
         {
             "id": "3",
+            "slug": "amad",
             "fn": "Wilson Caritero",
+            "short_fn": "Wilson",
             "ln": "Amad",
             "dob": "",
             "term": 1,
@@ -108,7 +113,9 @@
         },
         {
             "id": "4",
+            "slug": "andamo",
             "fn": "Jocelyn Santos",
+            "short_fn": "Jocelyn",
             "ln": "Andamo",
             "dob": "",
             "term": 1,
@@ -124,13 +131,15 @@
         },
         {
             "id": "5",
+            "slug": "aquino",
             "fn": "Paolo Benigno “Bam” IV Aguirre",
+            "short_fn": "Bam",
             "ln": "Aquino",
             "dob": "19770507",
             "term": 2,
             "tags": [
-                "PF",
-                "F_S"
+                { "text": "PF", "alert": true },
+                { "text": "F_S" }
             ],
             "img": "abalos.jpg",
             "party": "Katipunan ng Nagkakaisang Pilipino",

@@ -2,6 +2,7 @@
 @import './lib/css/fonts.css';
 @import './lib/css/global.css';
 @import './lib/css/layout.css';
+@import './lib/css/hero.css';
 
 /* :root {
 	* --font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
